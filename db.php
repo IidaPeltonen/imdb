@@ -8,5 +8,6 @@ function createDbConnection(){
     } catch(PDOException $e){
         echo $e->getMessage();
     }
+
     return $dbcon;
 }
